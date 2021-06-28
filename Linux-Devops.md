@@ -5,8 +5,5 @@ This repository contains basics about linux which is essential enough for Devops
 
 | Directory Name | Description  |
 |--|--|
-|/|This is top level directory <br/>
-It is parent Directory for all other directories <br/>
-It is called as the `Root` Directory <br/>
-Similar to the `C:/` in Windows <br/>|
+|/|This is top level directory <br/>It is parent Directory for all other directories <br/>It is called as the `Root` Directory <br/>Similar to the `C:/` in Windows <br/>|
 |Testing |things|
