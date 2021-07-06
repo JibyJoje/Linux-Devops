@@ -92,7 +92,8 @@ This repository contains basics about linux which is essential enough for Devops
 |Permission are applied at 3 levels|Owners, Groups and Others|
 |Permission are applied in 3 ways|`r` - read<br/>`w` - Write<br/>`x` -Execute|
 
-- When you execute the `ls -l` command you will see the detailed permissions that are set on the file : `-rw-r--r--  1 j0j07as staff 3505 Jul  6 10:04 Linux-Devops.md`
+- When you execute the `ls -l` command you will see the detailed permissions that are set on the file : 
+`-rw-r--r--  1 j0j07as staff 3505 Jul  6 10:04 Linux-Devops.md`
     - Let us consider the example of `-rw-r--r--` in this case
     - The first `-` indicates the type of file, in this case its a normal file. It would have been `d` if this was a directory
     - The next 3 `rw-` indicate the owner permissions, which means that the owner of the file `j0j07as` has read and write permissions on this file.
