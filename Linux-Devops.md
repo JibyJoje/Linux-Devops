@@ -82,9 +82,22 @@ This repository contains basics about linux which is essential enough for Devops
 |Super or Root User|Admin User with all privileges|
 |System User|Users created by softwares or applications|
 |Normal User|Users created by root user|
-|useradd <flag> <username>|Create a user in Linux System<br/>`-u` - user ID <br/>`-G` - Secondary Group<br/>`-g` - Primary Group<br/>`-d` - home directory<br/>`-c` - Comment<br/>`-s` - Default Shell|
-|||
-|||
-|||
+|useradd `<flag> <username>`|Create a user in Linux System<br/>`-u` - user ID <br/>`-G` - Secondary Group<br/>`-g` - Primary Group<br/>`-d` - home directory<br/>`-c` - Comment<br/>`-s` - Default Shell|
+|usermod `<flag> <group> <user>|Modify existing user attributes|
+
+## File Permissions
+
+|Command|Description|
+|--|--|
+|Permission are applied at 3 levels|Owners, Groups and Others|
+|Permission are applied in 3 ways|`r` - read<br/>`w` - Write<br/>`x` -Execute|
+
+- When you execute the `ls -l` command you will see the detailed permissions that are set on the file : `-rw-r--r--  1 j0j07as staff 3505 Jul  6 10:04 Linux-Devops.md`
+    - Let us consider the example of `-rw-r--r--` in this case
+    - The first `-` indicates the type of file, in this case its a normal file. It would have been `d` if this was a directory
+    - The next 3 `rw-` indicate the owner permissions, which means that the owner of the file `j0j07as` has read and write permissions on this file.
+    - The next 3 `r--` indicate the group permission, which mean any user who is part of the group that is owned by the file `staff` will have read permission
+    - And the last 3 `r--` indicate that any user who is not a user or not a part of the group will have only read permission.
+
 
 
