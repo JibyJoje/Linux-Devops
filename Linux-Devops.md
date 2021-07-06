@@ -61,4 +61,28 @@ This repository contains basics about linux which is essential enough for Devops
 |vi or nano|You can edit already existing files using vi, vim or nano|
 |cat > filenam|This will add new contents to empty file and override contents of existing file|
 |cat >> filename|This will append any new contents to the existing file|
+
+## Manage files or directories:
+
+|Command|Description|
+|cp|copy a file from source to destination|
+|mv|move a file from source to destination0|
+|mv|move command can also be used to rename a file|
+|find|find files or directories, similar to search in windows.<br/> `-name` can be used to search based on file name <br/> `-user` canb be used to search files belong to the user <br/> `-group` can be used to search files belonging to groups |
+|diff|gives the difference between two files|
+|file|Determine the type of file|
+|grep|search for a particular pattern in a file or output|
+|sed|search a word and replace it. Similar to Find and replace in windows|
+
+## User Management:
+
+|Command|Description|
+|Super or Root User|Admin User with all privileges|
+|System User|Users created by softwares or applications|
+|Normal User|Users created by root user|
+|useradd <flag> <username>|Create a user in Linux System<br/>`-u` - user ID <br/>`-G` - Secondary Group<br/>`-g` - Primary Group<br/>`-d` - home directory<br/>`-c` - Comment<br/>`-s` - Default Shell|
 |||
+|||
+|||
+
+
