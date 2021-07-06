@@ -65,8 +65,9 @@ This repository contains basics about linux which is essential enough for Devops
 ## Manage files or directories:
 
 |Command|Description|
+|--|--|
 |cp|copy a file from source to destination|
-|mv|move a file from source to destination0|
+|mv|move a file from source to destination|
 |mv|move command can also be used to rename a file|
 |find|find files or directories, similar to search in windows.<br/> `-name` can be used to search based on file name <br/> `-user` canb be used to search files belong to the user <br/> `-group` can be used to search files belonging to groups |
 |diff|gives the difference between two files|
@@ -77,6 +78,7 @@ This repository contains basics about linux which is essential enough for Devops
 ## User Management:
 
 |Command|Description|
+|--|--|
 |Super or Root User|Admin User with all privileges|
 |System User|Users created by softwares or applications|
 |Normal User|Users created by root user|
