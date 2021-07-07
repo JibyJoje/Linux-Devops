@@ -91,6 +91,8 @@ This repository contains basics about linux which is essential enough for Devops
 |--|--|
 |Permission are applied at 3 levels|Owners, Groups and Others|
 |Permission are applied in 3 ways|`r` - read<br/>`w` - Write<br/>`x` -Execute|
+|chmod|change the permissions of a file or directory<br/>- Symbolic Method<br/>- Absolute Method|
+|chown|Change the ownership of the file and this command can only be executed by the root user
 
 - When you execute the `ls -l` command you will see the detailed permissions that are set on the file : 
 `-rw-r--r--  1 j0j07as staff 3505 Jul  6 10:04 Linux-Devops.md`
@@ -100,5 +102,27 @@ This repository contains basics about linux which is essential enough for Devops
     - The next 3 `r--` indicate the group permission, which mean any user who is part of the group that is owned by the file `staff` will have read permission
     - And the last 3 `r--` indicate that any user who is not a user or not a part of the group will have only read permission.
 
+## System Management:
+
+|Command|Description|
+|--|--|
+|history|list of all commands that were executed by the user|
+|free|free memory of the server|
+|cat /proc/meminfo|Display Memory Information|
+|cat /proc/cpuinfo|Display CPU Information|
+|uname -a|Show kernel Information|
+|du|Display Disk Usage|
+|yum|install red-hat packages|
+
+## Networking:
+
+|Command|Description|
+|--|--|
+|hostname|Displays the hostname of the server|
+|ping {ip}|checks the connectivity of a destination server over the N/W|
+|wget|Download packages/softwares into the host|
+|ifconfig|Displays the IP address of the server|
+|telnet|connect to remote host/check port availability|
+|curl|Access the appliation as from a browser|
 
 
