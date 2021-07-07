@@ -130,13 +130,5 @@ This repository contains basics about linux which is essential enough for Devops
 
 |Command|Description|
 |--|--|
-|service|This command is used to control the services<br/>
-`service {service-name} status` --> Check the status of the service<br/>
-`service {service-name} start` --> Start the service<br/>
-`service {service-name} stop` --> Stop the service<br/>
-`service {service-name} reload` --> Reload the service<br/>
-`service {service-name} restart` --> Restart the service|
-|chkconfig|Control if the service should be on/off on boot time<br/>
-`chkconfig --list` --> List all available service<br/>
-`chkconfig {service-name} on` --> Keep the service running even after restart<br/>
-`chkconfig {service-name} off` --> Make the service unavailable after restart|
+|service|This command is used to control the services<br/>`service {service-name} status` --> Check the status of the service<br/>`service {service-name} start` --> Start the service<br/>`service {service-name} stop` --> Stop the service<br/>`service {service-name} reload` --> Reload the service<br/>`service {service-name} restart` --> Restart the service|
+|chkconfig|Control if the service should be on/off on boot time<br/>`chkconfig --list` --> List all available service<br/>`chkconfig {service-name} on` --> Keep the service running even after restart<br/>`chkconfig {service-name} off` --> Make the service unavailable after restart|
